@@ -43,7 +43,7 @@ export function BrowseContainer({ slides }) {
   return profile.displayName ? (
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
-      <Header src="joker1" dontShowOnSmallViewPort>
+      <Header src="adastra" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
             <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
@@ -82,14 +82,16 @@ export function BrowseContainer({ slides }) {
           </Header.Group>
         </Header.Frame>
         <Header.Feature>
-          <Header.FeatureCallOut>Watch Joker Now</Header.FeatureCallOut>
+          <Header.FeatureCallOut>
+            <img
+              src="https://occ-0-4039-41.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABQGbh4eWKjYlUKrZ8Ot8scmXTuFhgZs2hby-Hc8hpqf9ZPvTCAw3S5XD1YPLt0gKmnKe8-uS74hos5L99vL81NEyCwEN0UPDrDlL.png?r=3af%22"
+              alt="Ad Astra"
+            />
+          </Header.FeatureCallOut>
           <Header.Text>
-            Year 1981. In Gotham City, mentally-troubled Arthur Fleck (Joaquin
-            Phoenix) works as a clown-for-hire and lives with his mother, Penny.
-            Arthur, whose motivation in life is to make people laugh, wants to
-            be a stand-up comedian, but he is ignored by society, and a series
-            of tragic events will take him to see the world in a different way,
-            full of anger and rage against everyone and everything.
+            An astronaut's journey to Mars becomes an arduous mission to reach
+            his missing father and a quest for answers in space — and within
+            himself.
           </Header.Text>
           <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>

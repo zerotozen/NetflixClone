@@ -198,7 +198,7 @@ export const Profile = styled.div`
 `;
 
 export const Feature = styled(Container)`
-  padding: 150px 0 500px 0;
+  padding: 100px 0 600px 0;
   flex-direction: column;
   align-items:normal;
   width 50%;
@@ -209,11 +209,14 @@ export const Feature = styled(Container)`
 `;
 
 export const Text = styled.p`
-  color: white;
-  font-size: 22px;
+  color: #fff;
+  font-weight: 400;
   line-height: normal;
+  width: 100%;
+  font-size: 1.4vw;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
   margin: 0;
+  max-width: 680px;
 `;
 
 export const FeatureCallOut = styled.p`
